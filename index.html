@@ -14,6 +14,13 @@
       href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Poppins:wght@400;500;700&display=swap"
       rel="stylesheet"
     />
+
+    <!-- Swiper JS -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+
     <!-- Styles -->
     <link rel="stylesheet" href="style.css" />
   </head>
@@ -36,6 +43,7 @@
     </header>
 
     <main>
+      <!-- HOME -->
       <section class="section" id="home">
         <div class="container grid">
           <div class="image">
@@ -57,6 +65,7 @@
 
       <div class="divider-1"></div>
 
+      <!-- ABOUT -->
       <section class="section" id="about">
         <div class="container grid">
           <div class="image">
@@ -92,6 +101,7 @@
 
       <div class="divider-2"></div>
 
+      <!-- SERVICES -->
       <section class="section" id="services">
         <div class="container grid">
           <header>
@@ -130,8 +140,81 @@
           </div>
         </div>
       </section>
-    </main>
 
+      <div class="divider-1"></div>
+      <!-- TESTIMONIALS -->
+      <section class="section" id="testimonials">
+        <div class="container">
+          <header>
+            <h2 class="title">Depoimentos de quem já passou por aqui</h2>
+          </header>
+          <div class="testimonials swiper">
+            <div class="swiper-wrapper">
+              <div class="testimonial swiper-slide">
+                <blockquote>
+                  <p>
+                    <span>&ldquo;</span>
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                    Eos id vitae assumenda at accusamus vero laudantium error
+                    corrupti, est tenetur amet recusandae numquam aperiam
+                    facilis illum enim neque nam explicabo.
+                  </p>
+                  <cite>
+                    <img
+                      src="./assets/userphotos/japan-lady.jpg"
+                      alt="Foto da japonesa Kira Yamamoto"
+                    />
+                    Kira Yamamoto
+                  </cite>
+                </blockquote>
+              </div>
+              <div class="testimonial swiper-slide">
+                <blockquote>
+                  <p>
+                    <span>&ldquo;</span>
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                    Eos id vitae assumenda at accusamus vero laudantium error
+                    corrupti, est tenetur amet recusandae numquam aperiam
+                    facilis illum enim neque nam explicabo.
+                  </p>
+                  <cite>
+                    <img
+                      src="./assets/userphotos/blonde-lady.jpg"
+                      alt="Foto de Franciele Matos "
+                    />
+                    Franciele Matos
+                  </cite>
+                </blockquote>
+              </div>
+              <div class="testimonial swiper-slide">
+                <blockquote>
+                  <p>
+                    <span>&ldquo;</span>
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                    Eos id vitae assumenda at accusamus vero laudantium error
+                    corrupti, est tenetur amet recusandae numquam aperiam
+                    facilis illum enim neque nam explicabo.
+                  </p>
+                  <cite>
+                    <img
+                      src="./assets/userphotos/australian-lady.jpg"
+                      alt="Foto de Mayara Pereira "
+                    />
+                    Mayara Pereira
+                  </cite>
+                </blockquote>
+              </div>
+            </div>
+            <div class="swiper-pagination"></div>
+          </div>
+        </div>
+      </section>
+
+      <!-- CONTACT -->
+    </main>
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <!-- My JS -->
     <script src="./app.js"></script>
   </body>
 </html>
